@@ -8,7 +8,7 @@ class itog_laba {
 
         while (true) {
             Scanner sc = new Scanner(System.in);
-            System.out.println("Введите выражение: ");
+            System.out.println("Введите выражение с дробями, дроби необходимо записать в формате x/y, а выражении соблюдать пробелы между дробью и знаками +,-,*,: . Чтобы завершить прогремму, напиите quit");
             String primer = sc.nextLine();
 
             if (primer.equals("quit")) {
